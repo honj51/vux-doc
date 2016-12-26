@@ -9,7 +9,7 @@
     * [playground](about/playground.md)
     * [版本变更](版本变更.md)
 * [安装](安装.md)
-* [布局组件]
+* 布局组件
     * [Flexbox](layout/flexbox.md)
     * [Scroller](layout/scroller.md)
     * [Tab 选项卡](layout/tab.md)
@@ -20,7 +20,7 @@
     * [Timeline](layout/timeline.md)
     * [XHeader](layout/x-header.md)
     * [Step](step.md)
-* [UI组件]
+* UI组件
     * [divider 横向分隔线](ui/divider.md)
     * [badge](ui/badge.md)
     * [icon](ui/icon.md)
@@ -28,7 +28,7 @@
 * 常用样式
     * [1px解决方案](style/1px.md)
     * [reddot红点提示](style/reddot.md)
-* [表单组件]
+* 表单组件
     * [Group表单分组组件](form/group.md)
     * [Cell](form/cell.md)
     * [Address](form/address.md)
@@ -64,7 +64,7 @@
     * [Actionsheet](message/actionsheet.md)
     * [Dialog](message/dialog.md)
     * [Spinner](message/spinner.md)
-* [图片]
+* 图片
     * [背景模糊](image/blur.md)
     * [半透明遮罩](image/masker.md)
     * [轮播](image/swiper.md)
