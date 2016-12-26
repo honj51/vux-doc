@@ -2,9 +2,9 @@
 
 ## 其他格式的文档有么?
 
-+ [PDF](https://www.gitbook.com/download/pdf/book/vuxjs/vux)
-+ [ePub](https://www.gitbook.com/download/epub/book/vuxjs/vux)
-+ [Mobi](https://www.gitbook.com/download/mobi/book/vuxjs/vux)
++ [PDF](https://www.gitbook.com/download/pdf/book/jinhuiwong/vuxx)
++ [ePub](https://www.gitbook.com/download/epub/book/jinhuiwong/vuxx)
++ [Mobi](https://www.gitbook.com/download/mobi/book/jinhuiwong/vuxx)
 
 ## 不懂Vue， 怎么用
 
