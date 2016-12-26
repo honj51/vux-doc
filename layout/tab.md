@@ -13,6 +13,13 @@
 | index| 可选，选中tab的index | Number | 0 |
 | v-model | index的双向绑定，不要和index一起用 | Number | 0 |
 
+### tab Events
+
+| 名字  | 参数   | 描述                  |
+| ---- | ----- | --------------------- |
+| on-index-change| index | tab选中 |
+
+
 
 
 
@@ -21,13 +28,6 @@
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
 | selected | 是否高亮 | Boolean | false |
-
-## Events
-
-| 名字  | 参数   | 描述                  |
-| ---- | ----- | --------------------- |
-| on-index-change| index | tab选中 |
-
 
 
 
