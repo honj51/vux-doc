@@ -72,9 +72,6 @@
     * [表情图片](image/wechat-emotion.md)
     * 上传\(未支持\)
     * 点击全屏预览图片\(未支持\)
-* [动态检测]
-    * [屏幕翻转](detection/orientation.md)
-    * [手机摇一摇](detection/shake.md)
 * 图表组件
     * [Circle 圆圈](chart/circle.md)
 * [http请求](guide/http.md)
