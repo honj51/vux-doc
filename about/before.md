@@ -5,7 +5,8 @@
 如果以下概念有不清楚的地方，需要再次查看文档，聪明如你，肯定花不了多少时间：
 
 + `slot` 内容插槽
-+ `:prop` `:prop.sync` `:prop.once`
++ `prop`
++ `v-model`
 + `@click` `events` `$emit` 
 
 ## 文档链接
