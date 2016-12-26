@@ -33,7 +33,7 @@ Vux的目标是：
 
 ``` bash
 # clone the doc repo
-git clone https://github.com/vuxjs/vux-doc.git
+git clone https://github.com/jinhuiWong/vux-doc.git
 
 # 安装gitbook-cli
 npm install gitbook-cli -g
