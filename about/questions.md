@@ -2,7 +2,7 @@
 
 ## 其他格式的文档有么?
 
-+ [PDF](https://www.gitbook.com/download/pdf/book/jinhuiwong/vuxx)
++ [PDF](https://www.gitbook.com/download/pdf/book/jinhuiwong/vuxx) 
 + [ePub](https://www.gitbook.com/download/epub/book/jinhuiwong/vuxx)
 + [Mobi](https://www.gitbook.com/download/mobi/book/jinhuiwong/vuxx)
 
