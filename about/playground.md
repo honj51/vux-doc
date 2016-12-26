@@ -19,7 +19,7 @@
 > 高度height默认为 100
 
 ```` html
-```` vux width=100% height=100 components=Circle raw=true
+``` vux width=100% height=100 components=Circle raw=true
 <template>
   <div style='width:100px;height:100px;'>
     <circle :percent='percent2' :stroke-width=6 :trail-width=6 :stroke-color='strokeColor2' trail-color="#ececec">
