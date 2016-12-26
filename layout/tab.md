@@ -92,10 +92,4 @@ export default {
 
 + [tab](http://jh-wong.com/vux2/#/component/tab)
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 
