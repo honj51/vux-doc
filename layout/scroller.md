@@ -66,10 +66,10 @@ this.$nextTick(() => {
 
 | 名字 | 参数  | 描述 |
 |-----|-----|-----|
-| pullup:loading| (scroller的uuid) | 上拉加载时触发的事件，需要在获取数据后使用`$broadcast`触发状态更新， `this.$broadcast('pullup:reset', uuid)` |
-| pulldown:loading| (scroller的uuid) | 下拉加载时触发的事件，需要在获取数据后使用`$broadcast`触发状态更新， `this.$broadcast('pulldown:reset', uuid)` |
-| pullup:disable | (scroller的uuid) | 禁用上拉加载，当没有更多数据需要禁用时使用`$broadcast`触发禁用，`this.$broadcast('pullup:disable', uuid)` |
-| pullup:enable | (scroller的uuid) | 启用上拉加载，禁用插件后，当又重新需要时使用`$broadcast`触发重新启用，`this.$broadcast('pullup:enable', uuid)` |
+| pullup:loading| (that)scroller的实例 | 上拉加载时触发的事件，需要在获取数据后使用`$emit`触发状态更新， `that.$emit('pullup:reset', that.uuid)` |
+| pulldown:loading| (that)scroller的实例 | 下拉加载时触发的事件，需要在获取数据后使用`$emit`触发状态更新， `that.$emit('pulldown:reset', that.uuid)` |
+| pullup:disable | (scroller的uuid) | 禁用上拉加载，当没有更多数据需要禁用时使用`$emit`和`ref`方式结合触发禁用，需要设置ref，` this.$refs.scroller.$emit('pullup:disable',this.$refs.scroller.uuid)` |
+| pullup:enable | (scroller的uuid) | 启用上拉加载，禁用插件后，当又重新需要时使用`$emit`和`ref`方式结合触发禁用，需要设置ref，`this.$refs.scroller.$emit('pullup:enable',this.$refs.scroller.uuid)`` |
 
 
 
