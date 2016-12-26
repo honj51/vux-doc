@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://vux.li">
+  <a href="http://jh-wong.com/vux2">
     <img src="https://raw.githubusercontent.com/airyland/vux/master/logo.png">
   </a>
 </p>
