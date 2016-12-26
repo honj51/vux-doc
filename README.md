@@ -23,7 +23,7 @@ Vux的目标是：
 ## Demo
 
 <p style="text-align: center;">
-  <a href="http://jh-wong.com/vux2">http://jh-wong.com/vux2</a><br/>
+  <a style="text-align: center;" href="http://jh-wong.com/vux2">http://jh-wong.com/vux2</a><br/>
   <img src="http://og1rlwcj8.bkt.clouddn.com/1482162905.png" width="300">
 </p>
 
