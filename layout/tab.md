@@ -22,6 +22,15 @@
 | ----------- | ---------------------- | ---------- | ------- |
 | selected | 是否高亮 | Boolean | false |
 
+## Events
+
+| 名字 | 参数  | 描述 |
+| ---- | ----- | ---------- |
+| on-index-change| index | tab选中 |
+
+
+
+
 ### Demo
 
 ``` vux height=50 components=Tab,TabItem
