@@ -87,7 +87,7 @@ this.$nextTick(() => {
 
 > 更多的demo请手机访问 `http://jh-wong.com/vux2` 进行查看。
 
-+ [scroller](http://jh-wong.com/vux2/#!/component/scroller)
++ [scroller](http://jh-wong.com/vux2/#/component/scroller)
 + [pullup](http://jh-wong.com/vux2/#!/component/pullup)
 + [pulldown](http://jh-wong.com/vux2/#!/component/pulldown)
 + [pulldown & pullup](http://jh-wong.com/vux2/#!/component/pulldown-pullup)
