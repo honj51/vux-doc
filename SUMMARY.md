@@ -11,7 +11,7 @@
     * [谁在使用](谁在使用.md)
     * [最佳实践](最佳实践.md)
 * [安装](安装.md)
-* 布局组件
+* [布局组件](布局组件.md)
     * [Flexbox](layout/flexbox.md)
     * [Scroller](layout/scroller.md)
     * [Tab 选项卡](layout/tab.md)
