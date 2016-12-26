@@ -9,18 +9,6 @@
     <img src="https://img.shields.io/badge/chat-%20on%20bearychat%20-82c547.svg?style=flat-square">
   </a>
 </p>
-<p align="center">Vux = Vue + WeUI + A Bunch of Components </p>
-<p align="center">
-  <a href="https://www.npmjs.com/package/vux">
-    <img src="https://img.shields.io/npm/v/vux.svg?style=flat-square" alt="">
-  </a>
-  <a href="https://www.npmjs.com/package/vux">
-    <img src="https://img.shields.io/npm/dm/vux.svg?style=flat-square" alt="">
-  </a>
-  <a href="http://issuestats.com/github/airyland/vux">
-    <img src="http://issuestats.com/github/airyland/vux/badge/issue?style=flat-square" alt="">
-  </a>
-</p>
 
 # Vux
 
