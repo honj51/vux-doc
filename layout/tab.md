@@ -10,6 +10,11 @@
 | active-color | 可选，高亮文字的颜色和线条颜色 | String | #04be02 |
 | default-color | 可选，默认文字的颜色 | String | #666 |
 | animate | 可选，是否使用动画 | Boolean | true |
+| index| 可选，选中tab的index | Number | 0 |
+| v-model | index的双向绑定，不要和index一起用 | Number | 0 |
+
+
+
 
 ### tab-item
 
@@ -82,3 +87,15 @@ export default {
 }
 </script>
 ```
+
+> 更多的demo请手机访问 `http://jh-wong.com/vux2` 进行查看。
+
++ [tab](http://jh-wong.com/vux2/#/component/tab)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
