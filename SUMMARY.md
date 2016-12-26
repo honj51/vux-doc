@@ -8,7 +8,6 @@
     * [PR规范](about/PR.md)
     * [playground](about/playground.md)
     * [版本变更](版本变更.md)
-    * [谁在使用]
 * [安装](安装.md)
 * [布局组件]
     * [Flexbox](layout/flexbox.md)
