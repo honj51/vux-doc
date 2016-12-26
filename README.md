@@ -23,8 +23,8 @@ Vux的目标是：
 ## Demo
 
 <p align="center">
-  <a href="https://vux.li/?x-page=github_readme">https://vux.li</a><br/>
-  <img src="https://raw.githubusercontent.com/airyland/vux/master/assets/qr.png" width="300">
+  <a href="http://jh-wong.com/vux2">http://jh-wong.com/vux2</a><br/>
+  <img src="http://og1rlwcj8.bkt.clouddn.com/1482162905.png" width="300">
 </p>
 
 ### 文档修订
