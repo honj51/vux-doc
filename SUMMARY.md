@@ -65,14 +65,14 @@
     * [Actionsheet](message/actionsheet.md)
     * [Dialog](message/dialog.md)
     * [Spinner](message/spinner.md)
-* [图片](image.md)
+* [图片]
     * [背景模糊](image/blur.md)
     * [半透明遮罩](image/masker.md)
     * [轮播](image/swiper.md)
     * [表情图片](image/wechat-emotion.md)
     * 上传\(未支持\)
     * 点击全屏预览图片\(未支持\)
-* [动态检测](check/readme.md)
+* [动态检测]
     * [屏幕翻转](detection/orientation.md)
     * [手机摇一摇](detection/shake.md)
 * 图表组件
