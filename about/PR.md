@@ -11,7 +11,3 @@
   
   粟子: `Cell: Add some prop`
 
-
-## 特定组件依赖
-
-带有子组件并且有selected状态的需要使用multi-mixin, 工具库位于`src/mixins/multi-items.js`，可以参考`button-tab`、`tabbar`等组件。
