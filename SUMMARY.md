@@ -10,10 +10,7 @@
     * [版本变更](版本变更.md)
     * [谁在使用](谁在使用.md)
     * [最佳实践](最佳实践.md)
-* 安装
-    * [vue-cli项目引用.vue组件\(推荐\)](install/vue.md)
-    * [vue-cli项目引用umd组件](install/umd.md)
-    * [使用script全局引入](install/script.md)
+* [安装](安装.md)
 * 布局组件
     * [Flexbox](layout/flexbox.md)
     * [Scroller](layout/scroller.md)
@@ -24,12 +21,12 @@
     * [ButtonTab](layout/button-tab.md)
     * [Timeline](layout/timeline.md)
     * [XHeader](layout/x-header.md)
-    * Step
+    * [Step](step.md)
 * [UI组件](ui/readme.md)
     * [divider 横向分隔线](ui/divider.md)
     * [badge](ui/badge.md)
     * [icon](ui/icon.md)
-    * Search 搜索
+    * [Search 搜索](ui/search-搜索.md)
 * 常用样式
     * [1px解决方案](style/1px.md)
     * [reddot红点提示](style/reddot.md)
