@@ -85,7 +85,7 @@ this.$nextTick(() => {
 
 ## Demos
 
-> 更多的demo请手机访问 `https://vux.li` 进行查看。
+> 更多的demo请手机访问 `http://jh-wong.com/vux2` 进行查看。
 
 + [scroller](https://vux.li/#!/component/scroller)
 + [pullup](https://vux.li/#!/component/pullup)
