@@ -71,7 +71,7 @@ export default {
 
 <script>
 export default {
-  ready () {
+  mounted() {
     setInterval(this.update, 2000)
   },
   data () {
