@@ -10,7 +10,7 @@
     * [版本变更](版本变更.md)
     * [谁在使用]
 * [安装](安装.md)
-* [布局组件](布局组件.md)
+* [布局组件]
     * [Flexbox](layout/flexbox.md)
     * [Scroller](layout/scroller.md)
     * [Tab 选项卡](layout/tab.md)
@@ -21,7 +21,7 @@
     * [Timeline](layout/timeline.md)
     * [XHeader](layout/x-header.md)
     * [Step](step.md)
-* [UI组件](ui/readme.md)
+* [UI组件]
     * [divider 横向分隔线](ui/divider.md)
     * [badge](ui/badge.md)
     * [icon](ui/icon.md)
@@ -29,7 +29,7 @@
 * 常用样式
     * [1px解决方案](style/1px.md)
     * [reddot红点提示](style/reddot.md)
-* [表单组件](form.md)
+* [表单组件]
     * [Group表单分组组件](form/group.md)
     * [Cell](form/cell.md)
     * [Address](form/address.md)
