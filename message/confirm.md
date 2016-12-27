@@ -26,7 +26,7 @@ confirm用于需要用户确认操作的情况。
 ``` html
 <template>
 <group>
-  <switch title="Toggle" v-model="show"></switch>
+  <x-switch title="Toggle" v-model="show"></x-switch >
 </group>
 <confirm v-model="show" title="confirm deleting the item"><p style="text-align:center;">Are you sure?</p></confirm>
 </template>
