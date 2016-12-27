@@ -58,10 +58,10 @@ div {
 ``` 
 <template>
 <div>
-    <rater :value=5 star="☼" active-color="#FF9900"></rater>
+    <rater :value="5" star="☼" active-color="#FF9900"></rater>
 </div>
 <div>
-    <rater :value=4 star="囧" active-color="#FF9900"></rater>
+    <rater :value="4" star="囧" active-color="#FF9900"></rater>
 </div>
 </template>
 <style>
@@ -75,7 +75,7 @@ div {
 
 ``` 
 <template>
-<rater :value.sync="rate"></rater>
+<rater v-model="rate"></rater>
 <div v-text="'评分:' + rate"></div>
 </template>
 <script>
