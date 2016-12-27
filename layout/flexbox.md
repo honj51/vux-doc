@@ -35,7 +35,6 @@
 > 1像素边框实现请参考1px解决方案
 
 ``` html
-
 <template>
 <flexbox :margin-left=0 style="height: 200px; background-color: #fff;" class="vux-1px-tb vux-1px-l vux-1px-r">
   <flexbox-item class="vux-1px-r" style="height:200px;"></flexbox-item>
