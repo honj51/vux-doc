@@ -38,7 +38,7 @@
 
 ``` html
 <!-- 必须输入6-10位的电子邮件地址 -->
-<x-input :min=6 :max=10 is-type=email :value.sync="value"></x-input>
+<x-input :min=6 :max=10 is-type=email v-model="value"></x-input>
 <!-- 手机号码验证 -->
 <x-input 
     title="手机号"
@@ -46,26 +46,8 @@
     :show-clear=true 
     placeholder="请输入手机号"></x-input>
 <!-- 必须输入123456 -->
-<x-input
-    title="等值判断"
-    type="text"
-    equal-with="123456"></x-input>
-```
-
-### 获取验证状态
-
-``` vux height=200 components=Group,Cell,XInput
-<template>
-<group title="check if value is valid when required===true">
-  <x-input :value.sync="value" title="message" placeholder="I'm placeholder" v-ref:input></x-input>
-  <cell title="get valid value" :value="'$valid value:' + $refs.input.valid"></cell>
+<group title="等值判断">
+  <x-input title="请输入6位数字" type="text" placeholder="" v-model="password" :min="6" :max="6" @on-change="change"></x-input>
+  <x-input title="请确认6位数字" type="text" placeholder="" :equal-with="password"></x-input>
 </group>
-</template>
-<script>
-export default {
-  data () {
-    value: ''
-  }
-}
-</script>
 ```
