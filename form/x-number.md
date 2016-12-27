@@ -48,8 +48,7 @@ export default {
 
 ### 自定义步长
 
-``` 
-
+```
 <template>
 <group title="set step=0.5">
   <x-number title="Number" :step=0.5></x-number>
