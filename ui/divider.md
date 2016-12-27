@@ -4,7 +4,8 @@
 
 ### Demo
 
-``` vux height=65 components=Divider
+``` html
+
 <template>
 <divider>华丽分割线</divider>
 <divider><span style="color:green;">华丽分割线</span></divider>
