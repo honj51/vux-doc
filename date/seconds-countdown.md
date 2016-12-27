@@ -43,7 +43,7 @@ export default {
 </script>
 ```
 
-``` vux height=125 components=Group,Cell,Countdown,Switch
+``` html
 <template>
 <group>
   <switch title="start" :value.sync="start"></switch>
