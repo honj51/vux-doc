@@ -103,7 +103,7 @@ export default {
 
 ### 禁用组件
 
-``` vux width=100% height=150px components=Group,Cell,Range
+``` html
 
 <template>
   <group>
