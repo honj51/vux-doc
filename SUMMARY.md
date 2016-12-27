@@ -62,7 +62,7 @@
     * [Confirm](message/confirm.md)
     * [Toast](message/toast.md)
     * [Actionsheet](message/actionsheet.md)
-    * [Dialog](message/dialog.md)
+    * [XDialog](message/dialog.md)
     * [Spinner](message/spinner.md)
 * 图片
     * [背景模糊](image/blur.md)

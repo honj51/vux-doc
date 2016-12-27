@@ -1,6 +1,6 @@
 # Dialog
 
-`Alert`及`Confirm`依赖于`Dialog`。
+`Alert`及`Confirm`依赖于`XDialog`。
 
 ## Props
 
@@ -29,9 +29,9 @@
 ``` html
 <template>
   <div>
-    <dialog v-model="show" class="dialog-demo">
+    <x-dialog v-model="show" class="dialog-demo">
       <p class="dialog-title">I'm a Dialog.</p>
-    </dialog>
+    </x-dialog>
   </div>
 </template>
 
