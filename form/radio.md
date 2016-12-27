@@ -7,7 +7,8 @@
 | 名字 | 类型 | 默认 | 描述 |
 |-----|-----|-----|-----|
 | options | Array | 无 | 选项列表, 支持简单数组及key=>value键值对，使用键值对时表单值为key |
-| value | String | 无 | 表单值，必选，双向绑定 |
+| value | String | 无 | 表单值，必选 |
+| v-model | String | 无 | value的双向绑定 |
 | fill-mode | Boolean | false | 是否增加自定义输入框 |
 | fill-placeholder | String | 无 |自定义输入框的提示 |
 | fill-lable | String | 无 | 自定义输入框标签 |
