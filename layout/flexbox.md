@@ -42,7 +42,7 @@
     <flexbox orient="vertical" :margin-left="0">
       <flexbox-item class="vux-1px-b"></flexbox-item>
       <flexbox-item style="height: 100px;"><!--height: 100% doesnot work here-->
-        <flexbox :margin-left=0>
+        <flexbox :margin-left="0">
           <flexbox-item class="vux-1px-r"></flexbox-item>
           <flexbox-item></flexbox-item>
         </flexbox>
