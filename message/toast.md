@@ -25,7 +25,7 @@
 
 ### 默认按钮文字
 
-``` vux height=450 components=Toast,Group,Switch
+``` 
 <template>
 <div>
   <group>
