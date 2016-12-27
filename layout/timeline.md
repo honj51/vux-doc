@@ -11,7 +11,8 @@
 
 ### Demo
 
-``` vux height=250 components=Timeline,TimelineItem
+``` html
+
 <template>
 <div class="timeline-demo">
   <timeline :color="color">
