@@ -19,7 +19,7 @@
 ## Demo
 
 
-``` vux height=450 components=Loading,Group,Switch
+``` 
 <template>
 <div>
   <group>
