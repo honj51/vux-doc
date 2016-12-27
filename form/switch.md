@@ -1,12 +1,13 @@
 # Switch
 
-> 作为行内表单组件，`Switch`必须和`Group`一起使用。
+> 作为行内表单组件，`XSwitch`必须和`Group`一起使用。
 
 ## Props
 
 | 名字 | 类型 | 默认 | 描述 |
 |-----|-----|-----|-----|
-| value | Boolean | false | 表单值,`双向绑定` |
+| value | Boolean | false | 表单值 |
+| v-model | Boolean | false | value的双向绑定 |
 | title | String | 无 | cell标题 |
 | disabled | Boolean | false | 是否禁止操作 |
 | inline-desc| String | 无 | 副标题 |

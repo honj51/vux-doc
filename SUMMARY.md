@@ -38,7 +38,7 @@
     * [x-number 数字输入](form/x-number.md)
     * [checklist 多选](form/checklist.md)
     * [selector 下拉选择](form/selector.md)
-    * [switch 开关](form/switch.md)
+    * [x-switch 开关](form/switch.md)
     * [rater 评分](form/rater.md)
     * [Inline-Calendar 内联日历](form/inline-calendar.md)
     * [Calendar 日历](form/calendar.md)
