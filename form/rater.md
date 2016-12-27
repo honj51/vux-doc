@@ -76,7 +76,7 @@ div {
 ``` 
 <template>
 <rater v-model="rate"></rater>
-<div v-text="'评分:' + rate"></div>
+<div>评分:{{rate}}</div>
 </template>
 <script>
 export default {
