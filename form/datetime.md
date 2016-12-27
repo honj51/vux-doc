@@ -9,6 +9,7 @@
 | format | String | 'YYYY-MM-DD' | 显示格式 |
 | title | String | 无 | 显示标题 |
 | value | String | 默认为当前日期 | 日期值 |
+| v-model | String | 默认为当前日期 | value的双向绑定 |
 | inline-desc | String | 无 | 副标题 |
 | placeholder | String | 无 | 提示文字 |
 | min-year | Number | 无 | 最小可选年 |
