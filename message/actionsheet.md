@@ -4,7 +4,8 @@
 
 | 参数        | 类型        | 默认值 | 说明 |
 | ----------- | ---------------------- | ---------- | ------- |
-| show | Boolean | false | 显示绑定值，双向绑定 |
+| show | Boolean | false | 显示绑定值|
+| v-model | Boolean | false |show   `双向绑定` |
 | show-cancel | Boolean | false | 是否显示取消按钮 |
 | menus  | Object | {} |  菜单列表，格式见下|
 | cancelText | String | cancel | 取消按钮文字 |
