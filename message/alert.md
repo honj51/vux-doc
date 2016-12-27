@@ -17,7 +17,7 @@
 
 ### 默认按钮文字
 
-``` 
+``` html
 <template>
 <group>
   <switch title="Toggle" :value.sync="show"></switch>
