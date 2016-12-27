@@ -11,6 +11,11 @@
 | list | Array | 无 | 地址库, address源码目录下有`list.json` |
 | inline-desc | String | 无 | cell的子标题 |
 
+## Events
+| 名字 | 参数 | 说明 |
+|-----|-----|-----|
+| on-hide | closeType(布尔值:true表示选择完成,false表示取消) , value(选择的值) |此处包括on-ok,根据closeType判断 |
+| on-ok| val | 选择完成事件 |
 
 ## Demos
 
