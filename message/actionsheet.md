@@ -33,9 +33,9 @@
 <template>
 <div>
   <group>
-    <switch title="show actionsheet1" v-model="show1"></switch>
-    <switch title="show actionsheet2" v-model="show2"></switch>
-    <switch title="show actionsheet3" v-model="show3"></switch>
+    <x-switch title="show actionsheet1" v-model="show1"></x-switch >
+    <x-switch title="show actionsheet2" v-model="show2"></x-switch >
+    <x-switch title="show actionsheet3" v-model="show3"></x-switch >
   </group>
   <actionsheet v-model="show1" :menus="menus1"></actionsheet>
   <!-- 显示取消按钮 -->
