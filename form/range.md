@@ -129,15 +129,15 @@ export default {
 
 ### 设置bar的高度和手柄的位置
 
-``` vux width=100% height=150px components=Group,Cell,Range
+``` html
 
 <template>
 <group>
   <cell title="Bar height" :inline-desc="'value is: '+value" primary="content">
-    <range slot="value" :value.sync="value" :range-bar-height=4></range>
+    <range slot="value" v-model="value" :range-bar-height="4"></range>
   </cell>
   <cell title="Handle position" :inline-desc="'value is: '+value" primary="content">
-    <range slot="value" :value.sync="value" :range-handle-height=5></range>
+    <range slot="value" v-model="value" :range-handle-height="5"></range>
   </cell>
 </group>
 </template>
