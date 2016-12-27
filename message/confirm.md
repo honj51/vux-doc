@@ -12,7 +12,8 @@ confirm用于需要用户确认操作的情况。
 | confirm-text | 可选，确认按钮文字 | String | confirm |
 | 默认slot | 可选，提示消息内容 | DOM | 无 |
 | title | 必选，提示标题 | String | 无 |
-| show | 必选，是否显示，`双向绑定` | Boolean | false |
+| show | 必选，是否显示 | Boolean | false |
+|v-model | show`双向绑定` | Boolean | false |
 | on-confirm | 确认事件 | 事件 | 无 |
 | on-cancel | 取消事件 | 事件 | 无 |
 
