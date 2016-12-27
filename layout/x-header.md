@@ -33,7 +33,8 @@
 
 ## Demos
 
-``` vux height=570 components=XHeader,Divider
+``` html
+
 <template>
 <divider>默认</divider>
 <x-header>This is the page title.</x-header>
