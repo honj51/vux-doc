@@ -11,7 +11,7 @@
   <flexbox-item><div class="flex-demo">2</div></flexbox-item>
 </flexbox>
 <divider>Vertical</divider>
-<flexbox orient="vertical" :margin-left=0>
+<flexbox orient="vertical" :margin-left="0">
   <flexbox-item><div class="flex-demo" style="margin-left:0">1</div></flexbox-item>
   <flexbox-item><div class="flex-demo" style="margin-left:0">2</div></flexbox-item>
 </flexbox>
