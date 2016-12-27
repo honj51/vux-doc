@@ -44,12 +44,12 @@ export default {
 
 ### 监听事件
 
-``` vux height=200 components=Confirm,Group,Switch
+``` html
 <template>
 <group>
-  <switch title="Toggle" :value.sync="show"></switch>
+  <x-switch title="Toggle" v-model="show"></x-switch>
 </group>
-<confirm :show.sync="show" confirm-text="确定" cancel-text="取消" title="操作提示" @on-confirm="onAction('确认')" @on-cancel="onAction('取消')">
+<confirm v-model="show" confirm-text="确定" cancel-text="取消" title="操作提示" @on-confirm="onAction('确认')" @on-cancel="onAction('取消')">
   <p style="text-align:center;">操作不可撤消哦?</p>
 </confirm>
 </template>
