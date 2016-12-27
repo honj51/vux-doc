@@ -88,10 +88,10 @@ export default {
 			objectListValue: ['1', '2']
 		}
 	},
-	methods: {
+    methods: {
           change (val) {
           console.log('change', val)
-        }
+         }
       }
 }
 </script>
