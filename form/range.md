@@ -30,10 +30,10 @@
     <range slot="value" v-model="value1"></range>
   </cell>
   <cell title="allow decimals" :inline-desc="'value is: '+value2" primary="content">
-    <range slot="value" :value.sync="value2" decimal></range>
+    <range slot="value" v-model="value2" decimal></range>
   </cell>
   <cell title="value=20" :inline-desc="'value is: '+value3" primary="content">
-    <range slot="value" :value.sync="value3"></range>
+    <range slot="value" v-model="value3"></range>
   </cell>
 </group>
 </template>
