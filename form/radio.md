@@ -23,7 +23,7 @@
 
 ## 预设值
 
-``` vux height=140 components=Radio,Group
+``` 
 <template>
 <group>
     <radio :options="options" value="China"></radio>
@@ -43,7 +43,7 @@ export default {
 
 ## 自定义输入框
 
-``` vux height=200 components=Radio,Group
+``` 
 <template>
 <group>
     <radio :options="options" fill-mode fill-label="Other" fill-placeholder="填写其他的哦"></radio>
@@ -63,7 +63,7 @@ export default {
 
 ## 数据双向绑定
 
-``` vux height=300 components=Radio,Group
+``` 
 <template>
 <group title="radio1">
     <radio :options="options" :value.sync="value"></radio>
@@ -87,7 +87,7 @@ export default {
 
 ## change事件
 
-``` vux height=200 components=Radio,Group
+``` 
 <template>
 <group>
     <radio :options="options" @change="change"></radio>
