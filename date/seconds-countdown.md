@@ -15,7 +15,7 @@
 
 ## Demo
 
-``` vux height=65 components=Group,Cell,Countdown
+``` html
 <template>
 <group>
   <cell title="15s" :value="value">
