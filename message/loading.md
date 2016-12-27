@@ -23,9 +23,9 @@
 <template>
 <div>
   <group>
-    <switch title="Toggle" :value.sync="show" @on-change="delayHide"></switch>
+    <x-switch title="Toggle" v-model="show" @on-change="delayHide"></x-switch>
   </group>
-  <loading :show="show" :text="text1"></loading>
+  <loading v-model="show" :text="text1"></loading>
 </div>
 </template>
 
