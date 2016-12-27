@@ -61,7 +61,7 @@ export default {
 ``` 
 <template>
 <group title="fillable = false">
-  <x-number :value=10 title="Number" :fillable=false></x-number>
+  <x-number :value="10" title="Number" :fillable="false"></x-number>
 </group>
 </template>
 
