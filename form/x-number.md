@@ -48,12 +48,14 @@ export default {
 
 ### 自定义步长
 
-``` vux height=150px components=Group,XNumber
+``` 
+
 <template>
 <group title="set step=0.5">
   <x-number title="Number" :step=0.5></x-number>
 </group>
 </template>
+
 ```
 
 ### 禁止键盘输入
