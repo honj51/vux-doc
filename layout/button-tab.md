@@ -17,7 +17,7 @@
 
 ## Demos
 
-``` vux height=200 components=ButtonTab,ButtonTabItem,Divider
+``` html
 <template>
 <div>
   <button-tab>
