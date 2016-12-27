@@ -19,7 +19,7 @@
 ## Demo
 
 
-``` 
+``` html
 <template>
 <div>
   <group>
