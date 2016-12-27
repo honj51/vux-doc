@@ -23,7 +23,7 @@ confirm用于需要用户确认操作的情况。
 
 ### 默认按钮文字
 
-``` vux height=200 components=Confirm,Group,Switch
+``` html
 <template>
 <group>
   <switch title="Toggle" :value.sync="show"></switch>
