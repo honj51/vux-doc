@@ -17,7 +17,7 @@
 
 ### 默认按钮文字
 
-``` vux height=200 components=Alert,Group,Switch
+``` 
 <template>
 <group>
   <switch title="Toggle" :value.sync="show"></switch>
