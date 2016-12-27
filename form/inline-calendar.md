@@ -4,7 +4,8 @@
 
 | 参数         |      类型       |     默认值     |    说明    |
 | ----------- | -------------- | ---------- | ------- |
-| value | String | 无 | 当前选中日期，双向绑定，默认为空，即选中当天日期 |
+| value | String | 无 | 当前选中日期，默认为空，即选中当天日期 |
+| v-model| String | 无 | value的双向绑定 |
 | start-date | String | 无 | 可选起始日期，格式为'YYYY-MM-dd' |
 | end-date | String | 无 | 可选结束日期，格式为'YYYY-MM-dd' |
 | render-month | Array | 无 | 可选，指定渲染日期，如 [2018, 8] |
