@@ -75,5 +75,5 @@
     * [XCircle 圆圈](chart/circle.md)
 * [http请求](guide/http.md)
 * [router 路由](guide/router.md)
-* 手势操作
+* [手势操作](手势操作.md)
 
