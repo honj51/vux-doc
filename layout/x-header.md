@@ -34,7 +34,6 @@
 ## Demos
 
 ``` html
-
 <template>
 <divider>默认</divider>
 <x-header>This is the page title.</x-header>
