@@ -3,7 +3,7 @@
 > Flexbox功能由`Flexbox`及`FlexboxItem`子组件组成。
 
 ### 简单平分
-``` vux height=200 components=Flexbox,FlexboxItem,Divider
+``` html
 <template>
 <divider>Horizontal</divider>
 <flexbox style="height:40px;">
