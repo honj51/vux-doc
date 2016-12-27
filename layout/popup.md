@@ -4,8 +4,9 @@
 
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
-| show | 是否显示Popup，需要双向绑定 | Boolean | false |
+| show | 是否显示Popup | Boolean | false |
 | height | 弹出层高度 | String | auto |
+| v-model | show的双向绑定 | Boolean | false |
 
 > 如果希望弹出层铺满整个屏幕，则可设置`height=100%`
 
