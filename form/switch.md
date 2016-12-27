@@ -23,22 +23,22 @@
 
 ## 直接值
 
-``` vux height=160 components=Switch,Group
+``` 
 <template>
 <group>
-  <switch title="Switch" :value=true></switch>
-  <switch title="Switch" :value=false></switch>
+  <x-switch title="Switch" :value=true></x-switch>
+  <x-switch title="Switch" :value=false></x-switch>
 </group>
 </template>
 ```
 
 ## 双向绑定
 
-``` vux height=140 components=Switch,Group
+``` 
 <template>
 <group>
-  <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
-  <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
+  <x-switch :title="'双向绑定:值为' + value1" v-model="value1"></x-switch>
+  <x-switch :title="'双向绑定:值为' + value1" v-model="value1"></x-switch>
 </group>
 </template>
 
@@ -53,34 +53,34 @@ export default {
 
 ### disabled 设置不可更改
 
-``` vux height=140 components=Switch,Group
+``` 
 <components>
-Switch,Group
+XSwitch,Group
 </components>
 <template>
 <group>
-  <switch title="不可更改" :value=true disabled></switch>
-  <switch title="不可更改" :value=false disabled></switch>
+  <x-switch title="不可更改" :value=true disabled></x-switch>
+  <x-switch title="不可更改" :value=false disabled></x-switch>
 </group>
 </template>
 ```
 
 ### title支持html
 
-``` vux height=80 components=Switch,Group
+``` 
 <template>
 <group>
-  <switch title="<span style='color:red'>红色文字</span>" :value=true></switch>
+  <x-switch title="<span style='color:red'>红色文字</span>" :value=true></x-switch>
 </group>
 </template>
 ```
 
 ### on-change 事件
 
-``` vux height=80 components=Switch,Group
+``` 
 <template>
 <group>
-  <switch title="监听事件" :value=true @on-change="change"></switch>
+  <x-switch title="监听事件" :value=true @on-change="change"></x-switch>
 </group>
 </template>
 <script>
