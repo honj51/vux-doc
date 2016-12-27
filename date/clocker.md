@@ -13,7 +13,7 @@
 
 ### 一般使用
 
-``` vux height=60 components=Clocker
+``` html
 <template>
 <p style="padding:15px;">
   <span>距离2017-04-01还有</span>
@@ -24,7 +24,7 @@
 
 ### 在Cell中使用
 
-``` vux height=65 components=Clocker,Group,Cell
+``` html
 <template>
 <group>
   <cell title="20170401">

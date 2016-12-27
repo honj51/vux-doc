@@ -46,9 +46,9 @@
     * [Checker 灵活的选择组件](form/checker.md)
     * [Datetime 时间](form/datetime.md)
     * [Range](form/range.md)
-    * picker
-    * popup-picker
-    * 表单验证\(v0.1.1\)
+    * [picker](picker.md)
+    * [popup-picker](popup-picker.md)
+    * [表单验证\(v0.1.1\)](表单验证v011.md)
 * 时间组件
     * [日期倒计时](date/clocker.md)
     * [秒数倒计时](date/seconds-countdown.md)
