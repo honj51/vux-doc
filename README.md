@@ -12,7 +12,7 @@
 <p align="center">
   github:   
   <a href="https://github.com/jinhuiWong/vux-2.0">https://github.com/jinhuiWong/vux-2.0</a><br/>
-</p>
+</p> 
 
 
 # Vux
