@@ -23,7 +23,7 @@
 
 > 通过默认slot支持
 
-``` vux components=Circle
+``` html
 <template>
 <div style='width:100px;height:100px;'>
   <circle :percent='percent2' :stroke-width=6 :trail-width=6 :stroke-color='strokeColor2' trail-color="#ececec">
