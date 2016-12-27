@@ -25,7 +25,7 @@
 
 ### 默认按钮文字
 
-``` 
+``` html
 <template>
 <div>
   <group>
