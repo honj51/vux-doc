@@ -77,7 +77,7 @@ export default {
 
 ### 禁用滑动动画
 
-``` vux height=50 components=Tab,TabItem
+``` html
 <template>
 <tab :line-width="1" :animate="false">
   <tab-item :selected="demo2 === item" v-for="item in list2" @click="demo2 = item"><<item>></tab-item>
