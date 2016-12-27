@@ -16,6 +16,10 @@
 |-----|-----|-----|
 | on-hide | closeType(布尔值:true表示选择完成,false表示取消) , value(选择的值) |此处包括on-ok,根据closeType判断 |
 | on-ok| val | 选择完成事件 |
+| on-cancel | 无| 取消 |
+| on-show| 无 | show |
+
+
 
 ## Demos
 
