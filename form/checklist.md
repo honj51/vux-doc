@@ -99,10 +99,10 @@ export default {
 
 ### 打乱展示顺序
 
-``` vux height=250 components=Checklist
+```
 
 <template>
-<checklist title="随机顺序显示" :options="items" :value="selectedItems" random-order></checklist>
+<checklist title="随机顺序显示" :options="items" :value="selectedItems" random-order @change="change"></checklist>
 </template>
 <script>
 export default {
@@ -110,6 +110,11 @@ export default {
     return {
       items: ['篮球', '足球', '羽毛球', '台球'],
       selectedItems: []
+    }
+  },
+  methods: {
+    change (val) {
+      console.log('change', val)
     }
   }
 }
