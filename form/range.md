@@ -159,10 +159,10 @@ export default {
 <template>
 <group>
   <cell title="文字大小" :inline-desc="'font size: ' + value1" primary="content">
-    <range slot="value" :value.sync="value1" :min="12" :max="22" min-HTML="<span style='font-size:12px;'>小</span>" max-HTML="<span style='font-size:22px;'>大</span>"></range>
+    <range slot="value" v-model="value1" :min="12" :max="22" min-HTML="<span style='font-size:12px;'>小</span>" max-HTML="<span style='font-size:22px;'>大</span>"></range>
   </cell>
   <cell title="bcontentness" :inline-desc="'value is: ' + value2 + '%'" primary="content">
-    <range slot="value" :value.sync="value2" min-HTML="<span style='font-size:16px;color:#F90;'>☼</span>" max-HTML="<span style='font-size:30px;color:#F90;'>☼</span>"></range>
+    <range slot="value" v-model="value2" min-HTML="<span style='font-size:16px;color:#F90;'>☼</span>" max-HTML="<span style='font-size:30px;color:#F90;'>☼</span>"></range>
   </cell>
 </group>
 </template>
