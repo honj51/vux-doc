@@ -55,8 +55,7 @@ export default {
 
 ### 更简洁的粟子
 
-``` vux height=50 components=Tab,TabItem
-
+``` html
 <template>
 <tab :line-width="2" active-color="#fc378c">
   <tab-item :selected="demo2 === item" v-for="item in list2" @click="demo2 = item"><<item>></tab-item>
