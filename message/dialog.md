@@ -6,7 +6,8 @@
 
 | 参数        | 类型        | 默认值 | 说明 |
 | ----------- | ---------------------- | ---------- | ------- |
-| show | Boolean | false | 是否显示，`双向绑定` |
+| show | Boolean | false | 是否显示 |
+| v-model | Boolean | false |show   `双向绑定` |
 | mask-transition | String | vux-fade | 遮罩动画 |
 | dialog-transition | String | vux-dialog | 窗口动画 |
 
