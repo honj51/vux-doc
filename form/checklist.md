@@ -18,10 +18,10 @@
 
 ### 基本使用
 
-``` vux height=240 components=Checklist
+```
 
 <template>
-<checklist title="请选择你的爱好" :options="hobbies" :value.sync="hobby" @change="change"></checklist>
+<checklist title="请选择你的爱好" :options="hobbies" :value="hobby" @change="change"></checklist>
 </template>
 <script>
 export default {
@@ -42,10 +42,10 @@ export default {
 
 ### 设定选择条目个数
 
-``` vux height=250 components=Checklist
+``` 
 
 <template>
-<checklist title="至多选择两项" :options="items" :value.sync="selectedItems" :max=2 :required=false @change="change"></checklist>
+<checklist title="至多选择两项" :options="items" :value="selectedItems" :max=2 :required=false @change="change"></checklist>
 </template>
 <script>
 export default {
@@ -70,10 +70,10 @@ export default {
 
 > 每个条目的`key`必须为字符串
 
-``` vux height=200 components=Checklist
+```
 
 <template>
-<checklist title="Please select" :options="objectList" :value.sync="objectListValue"></checklist>
+<checklist title="Please select" :options="objectList" :value="objectListValue"></checklist>
 </template>
 <script>
 export default {
@@ -92,7 +92,7 @@ export default {
 ``` vux height=250 components=Checklist
 
 <template>
-<checklist title="随机顺序显示" :options="items" :value.sync="selectedItems" random-order></checklist>
+<checklist title="随机顺序显示" :options="items" :value="selectedItems" random-order></checklist>
 </template>
 <script>
 export default {
