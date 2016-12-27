@@ -14,6 +14,11 @@
 
 > 当设置`required=false`时，`min`设置将无效，即最少选定个数为0
 
+## Events
+| 名字 | 参数 | 说明 |
+|--|--|--|
+| on-change | val | value值改变触发 |
+
 ## Demo
 
 ### 基本使用
