@@ -9,6 +9,11 @@
     <img src="https://img.shields.io/badge/chat-%20on%20bearychat%20-82c547.svg?style=flat-square">
   </a>
 </p>
+<p align="center">
+  github:   
+  <a href="https://github.com/jinhuiWong/vux-2.0">https://github.com/jinhuiWong/vux-2.0</a><br/>
+</p>
+
 
 # Vux
 
