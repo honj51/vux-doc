@@ -87,7 +87,12 @@ export default {
 			objectList: [{key: '1', value: '001 value'}, {key: '2', value: '002 value'}, {key: '3', value: '003 value'}],
 			objectListValue: ['1', '2']
 		}
-	}
+	},
+	methods: {
+          change (val) {
+          console.log('change', val)
+        }
+      }
 }
 </script>
 ```
