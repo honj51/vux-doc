@@ -36,9 +36,9 @@
 
 > 通过默认slot支持
 
-``` vux height=200 components=Blur
+``` html
 <template>
-<blur :blur-amount=40 url="https://o3e85j0cv.qnssl.com/hot-chocolate-1068703__340.jpg">
+<blur :blur-amount="40" url="https://o3e85j0cv.qnssl.com/hot-chocolate-1068703__340.jpg">
   <p class="center">
     <img src="https://o3e85j0cv.qnssl.com/hot-chocolate-1068703__340.jpg">
   </p>
