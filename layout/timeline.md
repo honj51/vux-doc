@@ -35,7 +35,8 @@
 
 ### 动态改变条目数量
 
-``` vux height=600 components=Timeline,TimelineItem,XButton
+``` html
+
 
 <template>
 <div class="timeline-demo">
