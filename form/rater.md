@@ -5,8 +5,9 @@
 | 参数         | 说明                  | 类型        | 默认值 |
 | ----------- | ---------------------- | ---------- | ------- |
 |max|可选，最高评分值|Number|5|
-|value|可选，评分值，双向绑定|Number|0|
-|disabled|可选，不可点击|Boolean|false|
+|value|可选，评分值|Number|0|
+| v-model | Boolean | false | value的双向绑定 |
+|disabled|Boolean|可选，不可点击|false|
 |star|可选，评分图标样式|String|★|
 |active-color|可选，激活颜色|String|#fc6|
 |margin|可选，图标间距离|Number|2|
