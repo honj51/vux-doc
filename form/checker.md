@@ -4,7 +4,6 @@
 
 > 当前组件由 `checker` 和 `checker-item` 组成
 
-> 未来版本(可能在v0.2.0)将支持多选
 
 ## checker 属性
 
