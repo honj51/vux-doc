@@ -8,7 +8,7 @@
 | 默认slot | 可选，提示消息内容 | DOM | 无 |
 | title | 必选，提示标题 | String | 无 |
 | show | 必选，是否显示 | Boolean | false |
-v-model | Boolean | false |show `双向绑定` |
+|v-model | show`双向绑定` | Boolean | false |
 | on-show | 显示时事件 | 事件 | 无 |
 | on-hide | 关闭时事件 | 事件 | 无 |
 
