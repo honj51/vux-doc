@@ -13,7 +13,7 @@
 
 ## Demos
 
-``` vux height=500 components=Group,Cell,Spinner
+``` html
 <template>
 <div>
   <group>
