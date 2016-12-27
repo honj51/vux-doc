@@ -26,7 +26,7 @@
 ## 使用
 
 ``` html
-<checker :value.sync="somevalue"
+<checker :value="somevalue"
          default-item-class="demo-item-defalut"
          selected-item-class="demo-item-selected">
   <checker-item value="1">1</checker-item>
