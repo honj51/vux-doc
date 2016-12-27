@@ -33,7 +33,7 @@
 
 ### Demo
 
-``` vux height=50 components=Tab,TabItem
+``` html
 <template>
 <tab>
   <tab-item :selected="demo1 === '已发货'" @click="demo1 = '已发货'">已发货</tab-item>
