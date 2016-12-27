@@ -89,10 +89,10 @@ export default {
 		}
 	},
     methods: {
-          change (val) {
-          console.log('change', val)
-         }
-      }
+        change (val) {
+        console.log('change', val)
+       }
+    }
 }
 </script>
 ```
