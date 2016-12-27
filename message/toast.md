@@ -4,7 +4,8 @@
 
 | 参数         | 类型                 | 默认       | 说明 |
 | ----------- | ---------------------- | ---------- | ------- |
-| show  | Boolean | false | 是否显示，`双向绑定` |
+| show  | Boolean | false | 是否显示 |
+| v-model | Boolean | false |show   `双向绑定` |
 | time  | Nummber  | 2000 | 显示时间 |
 | type  | String   | success | 图标类型，可选为`success`,`text`,`cancel`,`warn` |
 | transition | String | vux-fade | 动画 |
