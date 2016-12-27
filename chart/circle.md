@@ -9,7 +9,7 @@
 
 ### 简单示例
 
-``` vux components=Circle
+``` html
 <template>
 <div style='width:100px;height:100px;'>
   <circle :percent=30 :stroke-width=5 stroke-color=#04BE02>

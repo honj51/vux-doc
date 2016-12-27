@@ -69,10 +69,10 @@
     * [半透明遮罩](image/masker.md)
     * [轮播](image/swiper.md)
     * [表情图片](image/wechat-emotion.md)
-    * 上传\(未支持\)
+    * [上传\(未支持\)](上传未支持.md)
     * 点击全屏预览图片\(未支持\)
 * 图表组件
-    * [Circle 圆圈](chart/circle.md)
+    * [XCircle 圆圈](chart/circle.md)
 * [http请求](guide/http.md)
 * [router 路由](guide/router.md)
 * 手势操作
