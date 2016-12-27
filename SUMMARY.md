@@ -31,7 +31,7 @@
 * 表单组件
     * [Group表单分组组件](form/group.md)
     * [Cell](form/cell.md)
-    * [Address](form/address.md)
+    * [x-address](form/address.md)
     * [x-button 按钮](form/x-button.md)
     * [x-input 单行文本输入](form/x-input.md)
     * [x-textarea 多行输入框](form/x-textarea.md)

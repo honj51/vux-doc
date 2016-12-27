@@ -1,6 +1,6 @@
 # Address
 
-> Address 依赖于`Popup`, `Picker`, `Cell`
+> XAddress 依赖于`Popup`, `Picker`, `Cell`
 
 ## Props
 
@@ -18,10 +18,10 @@
 <template>
   <div>
     <group>
-      <address :title="title" :value.sync="value" :list="addressData"></address>
+      <x-address :title="title" :value="value" :list="addressData"></x-address>
       <cell title="上面value值" :value="value | json"></cell>
-      <address :title="title2" :value.sync="value2" raw-value :list="addressData"></address>
-      <address title="二级省市" :value.sync="value3" raw-value :list="addressData"></address>
+      <x-address :title="title2" :value="value2" raw-value :list="addressData"></x-address>
+      <x-address title="二级省市" :value="value3" raw-value :list="addressData"></x-address>
     </group>
     <br/>
     <x-button type="primary" @click="changeData">改变数据</x-button>
@@ -29,12 +29,12 @@
 </template>
 
 <script>
-import { Group, Address, AddressChinaData, XButton, Cell } from '../components'
+import { Group, XAddress, AddressChinaData, XButton, Cell } from '../components'
 
 export default {
   components: {
     Group,
-    Address,
+    XAddress,
     XButton,
     Cell
   },
