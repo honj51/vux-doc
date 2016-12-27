@@ -46,7 +46,7 @@ export default {
 ``` html
 <template>
 <group>
-  <switch title="start" :value.sync="start"></switch>
+  <switch title="start" v-model="start"></switch>
   <cell title="15s">
     <countdown slot="value" :time="time" :start="start" @on-finish="finish"></countdown>
   </cell>
