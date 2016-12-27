@@ -4,7 +4,8 @@
 
 ## Demo
 
-``` vux components=Group
+``` html
+
 <template>
 <div>
   <br>
