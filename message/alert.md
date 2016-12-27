@@ -20,7 +20,7 @@
 ``` html
 <template>
 <group>
-  <switch title="Toggle" v-model="show"></switch>
+  <x-switch title="Toggle" v-model="show"></x-switch>
 </group>
 <alert v-model="show" title="恭喜您" button-text="好棒，去ATM转账">
   <p style="text-align:center;">中大奖了！99999元只要转4000元手续费</p>
