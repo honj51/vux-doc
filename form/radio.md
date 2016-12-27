@@ -66,10 +66,10 @@ export default {
 ``` 
 <template>
 <group title="radio1">
-    <radio :options="options" :value.sync="value"></radio>
+    <radio :options="options" v-model="value"></radio>
 </group>
 <group title="radio2">
-    <radio :options="options" :value.sync="value"></radio>
+    <radio :options="options" v-model="value"></radio>
 </group>
 </template>
 
