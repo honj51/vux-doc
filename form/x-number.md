@@ -28,11 +28,10 @@
 
 ### 基本使用
 
-``` vux width=100% height=100px components=Group,XNumber
-
+```
 <template>
 <group>
-  <x-number title="Number" :value=0 :min=0 :max=10 @on-change="change"></x-number>
+  <x-number title="Number" :value="0" :min="0" :max="10" @on-change="change"></x-number>
 </group>
 </template>
 <script>
@@ -59,8 +58,7 @@ export default {
 
 ### 禁止键盘输入
 
-``` vux height=150px components=Group,XNumber
-
+``` 
 <template>
 <group title="fillable = false">
   <x-number :value=10 title="Number" :fillable=false></x-number>
