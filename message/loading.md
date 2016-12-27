@@ -4,7 +4,8 @@
 
 | 参数         | 类型                 | 默认       | 说明 |
 | ----------- | ---------------------- | ---------- | ------- |
-| show  | Boolean | false | 是否显示，`双向绑定` |
+| show  | Boolean | false | 是否显示 |
+| v-model | Boolean | false | 是否显示`双向绑定` |
 | text | String or DOM  | Loading | 提示文字，与默认slot作用一致 |
 
 
