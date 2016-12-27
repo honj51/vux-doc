@@ -37,7 +37,7 @@
 
 > 分割数字只支持两位日期，如果有两位以上，可以考虑使用`on-tick`事件来处理
 
-``` vux height=120 components=Clocker,Group,Cell
+``` html
 <template>
 <group>
   <cell title="Date:0501">
