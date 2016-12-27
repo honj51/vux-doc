@@ -52,7 +52,7 @@ export default {
 
 ### 设置起始值和最大值
 
-``` vux width=100% height=210px components=Group,Cell,Range
+``` html
 
 <template>
 <group>
