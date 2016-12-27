@@ -1,4 +1,4 @@
-# Dialog
+# XDialog
 
 `Alert`及`Confirm`依赖于`XDialog`。
 
