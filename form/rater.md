@@ -40,10 +40,10 @@ div {
 ``` 
 <template>
 <div>
-    <rater :value=4 disabled></rater>
+    <rater :value="4" disabled></rater>
 </div>
 <div>
-    <rater :value=3.5  active-color="#04BE02" disabled></rater>
+    <rater :value="3.5"  active-color="#04BE02" disabled></rater>
 </div>
 </template>
 <style>
