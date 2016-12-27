@@ -2,7 +2,7 @@
 
 > 命名为`x-input`避免与原生`input`标签渲染冲突
 
-> 注意不要混淆：`x-input`不是原生`input`,不能使用`v-model`,数据绑定语法为`:value.sync`,也不支持大多数`input`上的事件如`focus`等，如果实在需要处理input事件，可以直接参照WeUI文档直接用html标签。
+> 注意不要混淆：`x-input`不是原生`input`,不支持大多数`input`上的事件如`focus`等，如果实在需要处理input事件，可以直接参照WeUI文档直接用html标签。
 
 > `x-input`需要与`group`配合使用
 
@@ -12,7 +12,8 @@
 | 名字 | 类型 | 默认 | 描述 |
 |-----|-----|-----|-----|
 | title | String | 无 | 标题 |
-| value | String | 无 | 表单值，`双向绑定` |
+| value | String | 无 | 表单值,不支持双向绑定,双向绑定请用v-model |
+| v-model|String | 无 | value值的双向绑定,不要混用 |
 | inline-desc | String | 无 | 标题下文字 |
 | keyboard | String | 无 | 只支持 `number`,用于激活数字键盘 |
 | placeholder | String | 无 | 输入提示 |
