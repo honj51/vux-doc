@@ -10,7 +10,7 @@
 
 ``` html
 <style lang="less">
-@import '~vux/src/styles/1px.less';
+@import '~vuxx/src/styles/1px.less';
 </style>
 ```
 根据位置可用类名为：
