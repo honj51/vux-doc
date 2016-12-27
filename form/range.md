@@ -154,7 +154,7 @@ export default {
 
 ### 自定义初始值和最大值
 
-``` vux width=100% height=150px components=Group,Cell,Range
+``` html
 
 <template>
 <group>
@@ -180,8 +180,7 @@ export default {
 
 ### 双向绑定
 
-``` html
-
+```
 <template>
 <group>
   <cell title="Default" :inline-desc="'value: '+value" primary="content">
