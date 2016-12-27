@@ -180,7 +180,7 @@ export default {
 
 ### 双向绑定
 
-```
+```html
 <template>
 <group>
   <cell title="Default" :inline-desc="'value: '+value" primary="content">
