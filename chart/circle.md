@@ -26,15 +26,15 @@
 ``` html
 <template>
 <div style='width:100px;height:100px;'>
-  <circle :percent='percent2' :stroke-width=6 :trail-width=6 :stroke-color='strokeColor2' trail-color="#ececec">
+  <x-circle :percent='percent2' :stroke-width=6 :trail-width=6 :stroke-color='strokeColor2' trail-color="#ececec">
     <span :style="{color: strokeColor2}">{{percent2}}%</span>
-  </circle>
+  </x-circle>
 </div>
 </template>
 
 <script>
 export default {
-  ready () {
+  mounted() {
     setInterval(this.update, 2000)
   },
   data () {
