@@ -26,8 +26,8 @@
 ``` 
 <template>
 <group>
-  <x-switch title="Switch" :value=true></x-switch>
-  <x-switch title="Switch" :value=false></x-switch>
+  <x-switch title="Switch" :value="true"></x-switch>
+  <x-switch title="Switch" :value="false"></x-switch>
 </group>
 </template>
 ```
@@ -59,8 +59,8 @@ XSwitch,Group
 </components>
 <template>
 <group>
-  <x-switch title="不可更改" :value=true disabled></x-switch>
-  <x-switch title="不可更改" :value=false disabled></x-switch>
+  <x-switch title="不可更改" :value="true" disabled></x-switch>
+  <x-switch title="不可更改" :value="false" disabled></x-switch>
 </group>
 </template>
 ```
@@ -70,7 +70,7 @@ XSwitch,Group
 ``` 
 <template>
 <group>
-  <x-switch title="<span style='color:red'>红色文字</span>" :value=true></x-switch>
+  <x-switch title="<span style='color:red'>红色文字</span>" :value="true"></x-switch>
 </group>
 </template>
 ```
@@ -80,7 +80,7 @@ XSwitch,Group
 ``` 
 <template>
 <group>
-  <x-switch title="监听事件" :value=true @on-change="change"></x-switch>
+  <x-switch title="监听事件" :value="true" @on-change="change"></x-switch>
 </group>
 </template>
 <script>
