@@ -90,7 +90,7 @@ export default {
 	},
     methods: {
         change (val) {
-          console.log('change', val)
+           console.log('change', val)
        }
     }
 }
