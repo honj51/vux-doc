@@ -12,7 +12,7 @@
 | default-item-class | 可选，应用于所有子选项 | String | 
 | selected-item-class | 必选，选中时的class | String |
 | disabled-item-class | 当有`不可点击`的选项时必选 | String | 
-| value | 必选，双向绑定 | String |
+| value | 必选，双向绑定 | Array |
 | on-change | 事件,选中值变化时触发 | 参数为`(value)` | 
 | on-item-click | 事件,当点击任何选项时触发 | 参数为`(itemValue, isDisabled)` |
 
