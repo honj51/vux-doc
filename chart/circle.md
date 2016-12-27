@@ -12,9 +12,9 @@
 ``` html
 <template>
 <div style='width:100px;height:100px;'>
-  <circle :percent=30 :stroke-width=5 stroke-color=#04BE02>
+  <x-circle :percent=30 :stroke-width=5 stroke-color=#04BE02>
     <span>{{percent1}}</span>
-  </circle>
+  </x-circle>
 </div>
 </template>
 ```
