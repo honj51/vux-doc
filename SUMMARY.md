@@ -53,7 +53,7 @@
     * [日期倒计时](date/clocker.md)
     * [秒数倒计时](date/seconds-countdown.md)
     * [轻量时间格式化](date/format.md)
-    * 相对时间
+    * [相对时间](相对时间.md)
 * 数字组件
     * [number-roller 数字滚动](number/number-roller.md)
 * 提示组件

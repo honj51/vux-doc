@@ -9,14 +9,14 @@
 
 ## demo
 
-``` vux height=100 components=NumberRoller
+``` html
 <template>
 <number-roller :number="number" :width="6"></number-roller>
 </template>
 
 <script>
 export default {
-  ready () {
+  mounted() {
     setInterval(() => {
       this.number = 100000 + Math.round(Math.random() * 899999)
     }, 3000)
