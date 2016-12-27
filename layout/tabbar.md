@@ -13,7 +13,7 @@
 ## Events
 | 名字 | 参数 | 说明                  |
 |------|-----|------------------------|
-| on-index-change | index | tabbar index |
+| on-index-change | index | tabbar选中返回index |
 
 ## Slots
 
