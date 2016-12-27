@@ -9,7 +9,8 @@
 | title | String | 无 | 标题 |
 | placeholder | String | 无 | placeholder |
 | readonly | Boolean | false | 只读 |
-| value | String | 无 | 表单值，`双向绑定` |
+| value | String | 无 | 表单值 |
+| v-model| String | 无 | value的双向绑定 |
 | options | Array | 无 | 选项，支持简单数组及key=>value键值对 |
 
 ## Events
