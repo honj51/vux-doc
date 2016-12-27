@@ -57,13 +57,13 @@ export default {
 <template>
 <group>
   <cell title="min=8" :inline-desc="'value is: '+value1" primary="content">
-    <range slot="value" :value.sync="value1" :min=8></range>
+    <range slot="value" v-model="value1" :min="8"></range>
   </cell>
   <cell title="max=88" :inline-desc="'value is: '+value2" primary="content">
-    <range slot="value" :value.sync="value2" :max=88></range>
+    <range slot="value" v-model="value2" :max="88"></range>
   </cell>
   <cell title="min and max" :inline-desc="'value is: '+value3" primary="content">
-    <range slot="value" :value.sync="value3" :min=7 :max=77></range>
+    <range slot="value" v-model="value3" :min=7 :max="77"></range>
   </cell>
 </group>
 </template>
@@ -82,11 +82,11 @@ export default {
 
 ### 自定义步长
 
-``` vux width=100% height=100px components=Group,Cell,Range
+``` html
 <template>
 <group>
   <cell title="step=10" :inline-desc="'valus is: '+value" primary="content">
-    <range slot="value" :value.sync="value" :min=7 :max=77 :step=10></range>
+    <range slot="value" v-model="value" :min="7" :max="77" :step="10"></range>
   </cell>
 </group>
 </template>
