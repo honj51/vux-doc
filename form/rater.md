@@ -16,7 +16,7 @@
 
 ### 一般使用
 
-``` vux components=Rater height=130
+``` 
 <template>
 <div>
     <rater :value=3></rater>
@@ -37,7 +37,7 @@ div {
 
 ### 不可点击
 
-``` vux components=Rater
+``` 
 <template>
 <div>
     <rater :value=4 disabled></rater>
@@ -55,7 +55,7 @@ div {
 
 ### 自定义评分图标
 
-``` vux components=Rater height=100
+``` 
 <template>
 <div>
     <rater :value=5 star="☼" active-color="#FF9900"></rater>
@@ -73,7 +73,7 @@ div {
 
 ### 双向绑定
 
-``` vux components=Rater height=80
+``` 
 <template>
 <rater :value.sync="rate"></rater>
 <div v-text="'评分:' + rate"></div>
