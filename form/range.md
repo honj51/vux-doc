@@ -6,6 +6,7 @@
 | ----------- | ---------------------- | ---------- | ------- |
 | decimal | 可选，是否开启小数支持 | Boolean | false |
 | value | 可选，当前选择值 | Number | 0 |
+| v-model| value的双向绑定 | Number | 0 |
 | min | 可选，取值范围最小值 | Number | 0 |
 | max | 可选，取值范围最大值 | Number | 100 |
 | min-html | 可选，最小值定制内容 | String | 无 |
@@ -21,7 +22,7 @@
 
 ### 基本使用
 
-``` vux width=100% height=220px components=Group,Cell,Range
+``` html
 
 <template>
 <group>
