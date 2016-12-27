@@ -18,8 +18,7 @@
 
 ## Demo
 
-``` vux height=400 width=100% components=Popup,Group,Switch
-
+``` html
 <template>
 <div>
   <group>
