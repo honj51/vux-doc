@@ -8,6 +8,7 @@
 | ----------- | ---------------------- | ---------- | ------- |
 | title | 可选，标题 | String | 无 |
 | value | 当前输入框值 | Number | 0 |
+| v-model | value的双向绑定 | Number | 0 |
 | min | 可选，数字范围最小值 | Number | 无 |
 | max | 可选，数字范围最大值 | Number | 无 |
 | step| 可选，步长 | Number | 1 |
