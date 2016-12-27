@@ -24,7 +24,7 @@
 
 ## Demo
 
-``` vux height=300 components=Tabbar,TabbarItem
+``` html
 <template>
 <div>
   <tabbar>
