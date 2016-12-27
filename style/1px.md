@@ -22,7 +22,8 @@
 
 ## 示例
 
-``` vux height=180 components=Flexbox,FlexboxItem
+``` html
+
 <template>
   <flexbox class="vux-1px-tb" :margin-left=0 style="height:50px;">
     <flexbox-item class="vux-1px-r test"><div>北京</div></flexbox-item>
