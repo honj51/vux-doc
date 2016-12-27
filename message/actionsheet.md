@@ -28,7 +28,7 @@
 
 ## Demo
 
-``` vux height=400 components=Group,Switch,Actionsheet
+``` html
 <template>
 <div>
   <group>
