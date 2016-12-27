@@ -18,6 +18,7 @@
 | aspect-ratio | 纵横比,设置则自动根据宽度计算高度 | Number | 无 |
 | min-moving-distance | 最小滑动距离 | Number | 0 |
 | index | 指定显示item的 | Number | 0 | 
+| v-model| index的双向绑定 | Number | 0 | 
 | interval | 轮播时间间隔 | Number | 3000 |
 | threshold | 滑动距离阀值，当按住屏幕滑动超过此距离，松开手时，自动滑，否则不滑动 | Number | 50 |
 | duration | 滑屏动画时间，单位ms，数值越小，滑动越快 | Number | 300 |
@@ -27,7 +28,7 @@
 
 ### 基本使用
 
-``` vux height=200 components=Swiper
+``` html
 <template>
 <div>
   <swiper :list="list" auto></swiper>
