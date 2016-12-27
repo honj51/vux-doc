@@ -69,13 +69,12 @@ export default {
 
 ### 和其他组件共用
 
-``` vux height=200px components=Switch,Group,XNumber
-
+``` 
 <template>
 <group title='with other element'>
-  <x-number title="Number" :min=-5 :max=8 :value=1 type="inline"></x-number>
-  <x-number title="Number" :min=-5 :max=8 :value=1 type="inline"></x-number>
-  <switch title="Other element" :value=true></switch>
+  <x-number title="Number" :min="-5" :max="8" :value="1" type="inline"></x-number>
+  <x-number title="Number" :min="-5" :max="8" :value="1" type="inline"></x-number>
+  <switch title="Other element" :value="true"></switch>
 </group>
 </template>
 ```
