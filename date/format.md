@@ -4,12 +4,12 @@
 
 可以引入`DateFormatter`组件作为`filter`, 参数为日期格式和时间及字符串格式。
 
-``` vux height=50 components=Group filters=DateFormatter
+``` html
 <template>
 <div>
-  <span v-text="time1 | date-formatter 'YYYY-MM-DD'"></span>
+  <span >{{ time1 | date-formatter('YYYY-MM-DD') }}</span>
   <br/>
-  <span v-text="time2 | date-formatter 'YYYY-MM-DD HH:mm:ss'"></span>
+  <span >{{ time2 | date-formatter('YYYY-MM-DD HH:mm:ss') }}</span>
 </div>
 </template>
 
