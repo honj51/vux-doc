@@ -27,25 +27,25 @@
 
 ### 设置开始和结束时间
 
-``` vux height=300 components=InlineCalendar
+```
 <template>
 <inline-calendar start-date="2016-06-04" end-date="2017-06-18"></inline-calendar>
 </template>
 ```
 
 ### 不显示上个月和下个月的日期
-``` vux height=300 components=InlineCalendar
+``` 
 <template>
 <inline-calendar :show-next-month="false" :show-last-month="false"></inline-calendar>
 </template>
 ```
 
 ### 取值
-``` vux height=400 components=InlineCalendar,Group,Cell
+``` 
 <template>
-<inline-calendar :value.sync="value"></inline-calendar>
+<inline-calendar v-model="value"></inline-calendar>
 <group>
-  <cell title="current value" :value="value"></cell>
+  <cell title="current value" v-model="value"></cell>
 </group>
 </template>
 
