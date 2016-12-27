@@ -29,7 +29,7 @@
 ``` html
 <template>
   <div>
-    <dialog :show.sync="show" class="dialog-demo">
+    <dialog v-model="show" class="dialog-demo">
       <p class="dialog-title">I'm a Dialog.</p>
     </dialog>
   </div>
