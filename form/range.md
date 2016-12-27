@@ -180,15 +180,15 @@ export default {
 
 ### 双向绑定
 
-``` vux width=100% height=150px components=Group,Cell,Range
+``` html
 
 <template>
 <group>
   <cell title="Default" :inline-desc="'value: '+value" primary="content">
-    <range slot="value" :value.sync="value"></range>
+    <range slot="value" v-model="value"></range>
   </cell>
   <cell title="Default" :inline-desc="'value: '+value" primary="content">
-    <range slot="value" :value.sync="value"></range>
+    <range slot="value" v-model="value"></range>
   </cell>
 </group>
 </template>
