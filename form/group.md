@@ -25,7 +25,8 @@
 
 ## Demo
 
-``` vux height=500 components=Group,Switch,Cell,XInput,XTextarea,Calendar,XNumber
+``` html
+
 <template>
 <group title="I'm group title">
   <cell title="cell" value="hello world" is-link></cell>

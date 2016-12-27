@@ -28,7 +28,7 @@
   <div>
     <group>
       <x-address :title="title" :value="value" :list="addressData"></x-address>
-      <cell title="上面value值" :value="value | json"></cell>
+      <cell title="上面value值" :value="value.join('')"></cell>
       <x-address :title="title2" :value="value2" raw-value :list="addressData"></x-address>
       <x-address title="二级省市" :value="value3" raw-value :list="addressData"></x-address>
     </group>

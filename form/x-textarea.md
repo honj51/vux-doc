@@ -19,7 +19,8 @@
 ## Demo
 * 普通的多行输入框
 
-```
+```html
+
 <template>
   <group title="textarea">
     <x-textarea :max="200" placeholder="请输入详细描述"></x-textarea>
@@ -31,7 +32,8 @@
 
 * 不显示字数统计
 
-```
+```html
+
 <template>
   <group title="不显示字符统计">
     <x-textarea :max="200" placeholder="请输入详细描述" :show-counter="false"></x-textarea>

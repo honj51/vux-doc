@@ -28,7 +28,8 @@
 
 ### 基本使用
 
-```
+```html
+
 <template>
 <group>
   <x-number title="Number" :value="0" :min="0" :max="10" @on-change="change"></x-number>
@@ -47,7 +48,8 @@ export default {
 
 ### 自定义步长
 
-```
+```html
+
 <template>
 <group title="set step=0.5">
   <x-number title="Number" :step="0.5"></x-number>
@@ -58,7 +60,8 @@ export default {
 
 ### 禁止键盘输入
 
-``` 
+``` html
+
 <template>
 <group title="fillable = false">
   <x-number :value="10" title="Number" :fillable="false"></x-number>
@@ -69,7 +72,8 @@ export default {
 
 ### 和其他组件共用
 
-``` 
+``` html
+
 <template>
 <group title='with other element'>
   <x-number title="Number" :min="-5" :max="8" :value="1" type="inline"></x-number>

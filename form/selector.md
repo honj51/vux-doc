@@ -22,7 +22,8 @@
 
 ## Demos
 
-```
+```html
+
 <template>
 <div>
   <group :title="'no placeholder, the current value is : ' + defaultValue">

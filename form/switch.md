@@ -23,7 +23,8 @@
 
 ## 直接值
 
-``` 
+``` html
+
 <template>
 <group>
   <x-switch title="Switch" :value="true"></x-switch>
@@ -34,7 +35,8 @@
 
 ## 双向绑定
 
-``` 
+``` html
+
 <template>
 <group>
   <x-switch :title="'双向绑定:值为' + value1" v-model="value1"></x-switch>
@@ -53,7 +55,8 @@ export default {
 
 ### disabled 设置不可更改
 
-``` 
+``` html
+
 <components>
 XSwitch,Group
 </components>
@@ -67,7 +70,8 @@ XSwitch,Group
 
 ### title支持html
 
-``` 
+``` html
+
 <template>
 <group>
   <x-switch title="<span style='color:red'>红色文字</span>" :value="true"></x-switch>
@@ -77,7 +81,8 @@ XSwitch,Group
 
 ### on-change 事件
 
-``` 
+``` html
+
 <template>
 <group>
   <x-switch title="监听事件" :value="true" @on-change="change"></x-switch>

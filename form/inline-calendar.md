@@ -27,21 +27,24 @@
 
 ### 设置开始和结束时间
 
-```
+```html
+
 <template>
 <inline-calendar start-date="2016-06-04" end-date="2017-06-18"></inline-calendar>
 </template>
 ```
 
 ### 不显示上个月和下个月的日期
-``` 
+``` html
+
 <template>
 <inline-calendar :show-next-month="false" :show-last-month="false"></inline-calendar>
 </template>
 ```
 
 ### 取值
-``` 
+``` html
+
 <template>
 <inline-calendar v-model="value"></inline-calendar>
 <group>

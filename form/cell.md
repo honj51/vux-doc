@@ -22,7 +22,8 @@
 
 ### Demo
 
-``` vux height=65 components=Group,Cell
+``` html
+
 <template>
 <group>
   <cell title="My Account" value="Protected" @click="click"></cell>
@@ -40,7 +41,8 @@ export default {
 ```
 ### 链接
 
-``` vux height=65 components=Group,Cell
+``` html
+
 <template>
 <group>
   <cell title="My Account" value="Protected" is-link></cell>

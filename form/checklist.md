@@ -23,7 +23,8 @@
 
 ### 基本使用
 
-```
+```html
+
 
 <template>
 <checklist title="请选择你的爱好" :options="hobbies" :value="hobby" @change="change"></checklist>
@@ -47,7 +48,8 @@ export default {
 
 ### 设定选择条目个数
 
-``` 
+``` html
+
 
 <template>
 <checklist title="至多选择两项" :options="items" :value="selectedItems" :max="2" :required="false" @change="change"></checklist>
@@ -75,7 +77,8 @@ export default {
 
 > 每个条目的`key`必须为字符串
 
-```
+```html
+
 
 <template>
 <checklist title="Please select" :options="objectList" :value="objectListValue" @change="change"></checklist>
@@ -99,7 +102,8 @@ export default {
 
 ### 打乱展示顺序
 
-```
+```html
+
 
 <template>
 <checklist title="随机顺序显示" :options="items" :value="selectedItems" random-order @change="change"></checklist>

@@ -16,7 +16,8 @@
 
 ### 一般使用
 
-``` 
+``` html
+
 <template>
 <div>
     <rater :value="3"></rater>
@@ -37,7 +38,8 @@ div {
 
 ### 不可点击
 
-``` 
+``` html
+
 <template>
 <div>
     <rater :value="4" disabled></rater>
@@ -55,7 +57,8 @@ div {
 
 ### 自定义评分图标
 
-``` 
+``` html
+
 <template>
 <div>
     <rater :value="5" star="☼" active-color="#FF9900"></rater>
@@ -73,7 +76,8 @@ div {
 
 ### 双向绑定
 
-``` 
+``` html
+
 <template>
 <rater v-model="rate"></rater>
 <div>评分:{{rate}}</div>
