@@ -9,10 +9,10 @@
 ``` html
 <template>
   <div>
-    <emotion>微笑</emotion>
-    <emotion is-gif>微笑</emotion>
-    <emotion>色</emotion>
-    <emotion is-gif>色</emotion>
+    <wechat-emotion>微笑</wechat-emotion>
+    <wechat-emotion is-gif>微笑</wechat-emotion>
+    <wechat-emotion>色</wechat-emotion>
+    <wechat-emotion is-gif>色</wechat-emotion>
   </div>
 </template>
 
