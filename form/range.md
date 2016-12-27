@@ -108,10 +108,10 @@ export default {
 <template>
   <group>
     <cell title="disabled=true" :inline-desc="'valus is: '+value1" primary="content">
-      <range slot="value" :value.sync="value1" disabled></range>
+      <range slot="value" v-model="value1" disabled></range>
     </cell>
     <cell title="Opacity" :inline-desc="'valus is: '+value2" primary="content">
-      <range slot="value" :value.sync="value2" disabled :disabled-opacity=0.1></range>
+      <range slot="value" v-model="value2" disabled :disabled-opacity=0.1></range>
     </cell>
   </group>
 </template>
