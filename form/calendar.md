@@ -21,6 +21,6 @@
 
 ``` html
 <group>
-  <calendar :value.sync="value" title="Date Picker"></calendar>
+  <calendar v-model="value" title="Date Picker"></calendar>
 </group>
 ```
