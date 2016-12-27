@@ -33,15 +33,15 @@
 <template>
 <div>
   <group>
-    <switch title="show actionsheet1" :value.sync="show1"></switch>
-    <switch title="show actionsheet2" :value.sync="show2"></switch>
-    <switch title="show actionsheet3" :value.sync="show3"></switch>
+    <switch title="show actionsheet1" v-model="show1"></switch>
+    <switch title="show actionsheet2" v-model="show2"></switch>
+    <switch title="show actionsheet3" v-model="show3"></switch>
   </group>
-  <actionsheet :show.sync="show1" :menus="menus1"></actionsheet>
+  <actionsheet v-model="show1" :menus="menus1"></actionsheet>
   <!-- 显示取消按钮 -->
-  <actionsheet :show.sync="show2" :menus="menus2" show-cancel></actionsheet>
+  <actionsheet v-model="show2" :menus="menus2" show-cancel></actionsheet>
   <!-- 菜单响应 -->
-  <actionsheet :show.sync="show3" :menus="menus3" @on-click-menu="click" show-cancel @cancel-text="取消"></actionsheet>
+  <actionsheet v-model="show3" :menus="menus3" @on-click-menu="click" show-cancel @cancel-text="取消"></actionsheet>
 </div>
 </template>
 
