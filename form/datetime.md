@@ -25,57 +25,77 @@
 ## demos
 
 ``` html
-<group>
-  <datetime title="select a date"></datetime>
-</group>
+<template>
+  <div>
+    <group title="default format: YYYY-MM-DD">
+      <datetime v-model="value1" @on-change="change" title="Birthday"></datetime>
+    </group>
 
-<!-- 可选分钟 -->
-<group>
-  <datetime title="select minutes" format="YYYY-MM-DD HH:mm"></datetime>
-</group>
+    <group title="YYYY-MM-DD HH:mm">
+      <datetime v-model="value2" format="YYYY-MM-DD HH:mm" @on-change="change" title="start time" inline-desc="select hour and minute"></datetime>
+    </group>
 
-<!-- 设置最小和最大可选年 -->
-<group>
-  <datetime 
-    title="specify min-year and max-year"
-    :min-year=2000 
-    :max-year=2016
-    value="please select"></datetime>
-</group>
+    <group title="Placeholder">
+      <datetime v-model="value3" format="YYYY-MM-DD" placeholder="Please select" @on-change="change" title="start time"></datetime>
+    </group>
 
-<!-- 自定义确认按钮和取消按钮文字 -->
-<gropu>
-  <datetime
-    title="自定义按钮文字"
-    confirm-text="确认"
-    cancel-text="取消"></datetime>
-</gropu>
+    <group title="specified min-year and max-year">
+      <datetime v-model="value4" placeholder="Please select" :min-year=2000 :max-year=2016 format="YYYY-MM-DD HH:mm" @on-change="change" title="years after 2000"></datetime>
+    </group>
 
-<!-- 自定义时间显示文字 -->
-<group>
-  <datetime
-    title="xx年xx月xx日xx点xx分"
-    year-row="{value}年"
-    month-row="{value}月"
-    day-row="{value}日"
-    hour-row="{value}点"
-    minute-row="{value}分"></datetime>
-</group>
+    <group title="specified template text in Chinese">
+      <datetime v-model="value5" placeholder="请选择日期" :min-year=2000 :max-year=2016 format="YYYY-MM-DD HH:mm" @on-change="change" title="Chinese" year-row="{value}年" month-row="{value}月" day-row="{value}日" hour-row="{value}点" minute-row="{value}分" confirm-text="完成" cancel-text="取消"></datetime>
+    </group>
 
-<!-- change事件 -->
-<group>
-  <datetime
-    title="change事件"
-    @change="change"></datetime>
-</group>
+    <group title="show center button and clear the value">
+      <datetime v-model="value6" @on-change="change" title="Birthday" clear-text="clear" @on-clear="clearValue"></datetime>
+    </group>
+
+    <group title="show center button to set date to today">
+      <datetime v-model="value7" @on-change="change" title="Birthday" clear-text="today" @on-clear="setToday"></datetime>
+    </group>
+
+  </div>
+</template>
 
 <script>
+import  Datetime from 'vuxx/src/components/Datetime'
+import  Group  from 'vuxx/src/components/Group'
+
 export default {
-    methods:{
-        change (val) {
-            console.log('change',val)
-        }
+  components: {
+    Datetime,
+    Group
+  },
+  data () {
+    return {
+      value1: '2016-02-11',
+      value2: '',
+      value3: '',
+      value4: '',
+      value5: '',
+      value6: '2016-08-18',
+      value7: ''
     }
+  },
+  methods: {
+    change (value) {
+      console.log('change', value)
+    },
+    clearValue (value) {
+      this.$data.value6 = ''
+      console.log('clear')
+    },
+    setToday (value) {
+      let now = new Date()
+      let cmonth = now.getMonth() + 1
+      let day = now.getDate()
+      if (cmonth < 10) cmonth = '0' + cmonth
+      this.$data.value7 = now.getFullYear() + '-' + cmonth + '-' + day
+      console.log('set today ok')
+    }
+  }
 }
 </script>
+
 ```
