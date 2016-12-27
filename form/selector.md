@@ -22,11 +22,11 @@
 
 ## Demos
 
-``` vux height=500 components=Group,Selector
+```
 <template>
 <div>
   <group :title="'no placeholder, the current value is : ' + defaultValue">
-    <selector title="省份" :options="list" :value.sync="defaultValue"></selector>
+    <selector title="省份" :options="list" v-model="defaultValue"></selector>
   </group>
 
   <group title="with placeholder">
@@ -38,7 +38,7 @@
   </group>
 
   <group title="set value=广西">
-    <selector :value.sync="value1" title="省份" :options="plainList" @on-change="onChange"></selector>
+    <selector v-model="value1" title="省份" :options="plainList" @on-change="onChange"></selector>
   </group>
 
   <group title="readonly, displays just like a cell">
@@ -51,7 +51,7 @@
 
   <group title='multi selector'>
     <selector placeholder="请选择省份" title="省份" :options="list"></selector>
-    <selector :value.sync="value2" title="省份" :options="list"></selector>
+    <selector v-model="value2" title="省份" :options="list"></selector>
   </group>
 </div>
 </template>
