@@ -50,7 +50,7 @@ export default {
 ``` 
 
 <template>
-<checklist title="至多选择两项" :options="items" :value="selectedItems" :max=2 :required=false @change="change"></checklist>
+<checklist title="至多选择两项" :options="items" :value="selectedItems" :max="2" :required="false" @change="change"></checklist>
 </template>
 <script>
 export default {
@@ -78,7 +78,7 @@ export default {
 ```
 
 <template>
-<checklist title="Please select" :options="objectList" :value="objectListValue"></checklist>
+<checklist title="Please select" :options="objectList" :value="objectListValue" @change="change"></checklist>
 </template>
 <script>
 export default {
