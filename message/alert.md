@@ -20,9 +20,9 @@
 ``` html
 <template>
 <group>
-  <switch title="Toggle" :value.sync="show"></switch>
+  <switch title="Toggle" v-model="show"></switch>
 </group>
-<alert :show.sync="show" title="恭喜您" button-text="好棒，去ATM转账">
+<alert v-model="show" title="恭喜您" button-text="好棒，去ATM转账">
   <p style="text-align:center;">中大奖了！99999元只要转4000元手续费</p>
 </alert>
 </template>
