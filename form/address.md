@@ -10,7 +10,7 @@
 | value | Array | [] | 表单值，`双向绑定` |
 | list | Array | 无 | 地址库, address源码目录下有`list.json` |
 | inline-desc | String | 无 | cell的子标题 |
-
+| placeholder | String | 无 | 设置placeholder | 
 ## Events
 | 名字 | 参数 | 说明 |
 |-----|-----|-----|
