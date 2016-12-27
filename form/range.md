@@ -27,7 +27,7 @@
 <template>
 <group>
   <cell title="Default" :inline-desc="'value: '+value1" primary="content">
-    <range slot="value" :value.sync="value1"></range>
+    <range slot="value" v-model="value1"></range>
   </cell>
   <cell title="allow decimals" :inline-desc="'value is: '+value2" primary="content">
     <range slot="value" :value.sync="value2" decimal></range>
