@@ -8,7 +8,7 @@
 + Cell
 + XInput
 + XTextarea
-+ Switch
++ XSwitch
 + Calendar
 + XNumber
 + Radio
@@ -30,7 +30,7 @@
 <group title="I'm group title">
   <cell title="cell" value="hello world" is-link></cell>
   <x-input title="x-input"></x-input>
-  <switch title="switch"></switch>
+  <x-switch title="switch"></x-switch>
   <x-textarea placeholder="x-textarea"></x-textarea>
   <calendar title="Calendar"></calendar>
 </group>

@@ -7,7 +7,7 @@
 | title | 可选，label文字 | String | 无 |
 | value | 可选，右边文字 | String | 无 |
 | inline-desc | 可选，label第二行文字 | String | 无 |
-| link | 可选,支持http绝对路径及`v-link`配置 | String or Object | 无 |
+| link | 可选,支持http绝对路径 | String or Object | 无 |
 | is-link | 可选，是否为链接，如果为true，样式上会出现箭头。当link存在时，is-link会自动设置为`true`  | Boolean  | false |
 | primary | 可选，可选值为title和content, 对应的div会加上weui_cell_primary类名实现内容宽度自适应 | String | title |
 
