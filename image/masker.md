@@ -22,7 +22,7 @@
 常见于电商网站，摄影网站的列表展示。
 
 
-``` vux height=600 width=400 components=Masker
+``` html
 <template>
 <div>
   <div style="margin: 10px;overflow: hidden;" v-for="item in list">
