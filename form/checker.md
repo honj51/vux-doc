@@ -37,7 +37,7 @@
 
 ## 例子
 
-``` 
+``` html
 <template>
 <checker :value="demo1" default-item-class="demo1-item" selected-item-class="demo1-item-selected">
   <checker-item value="1">1</checker-item>
@@ -72,7 +72,7 @@ export default {
 
 ### 默认值
 
-``` 
+``` html
 <template>
 <checker :value="demo2" default-item-class="demo2-item" selected-item-class="demo2-item-selected">
   <checker-item value="1">1</checker-item>
@@ -111,7 +111,7 @@ export default {
 
 ### disabled
 
-``` 
+``` html
 <template>
 <group>
   <cell title="select color" :value="demo4" is-link @click="showPopup=true"></cell>
@@ -120,7 +120,7 @@ export default {
   <div style="padding:10px 10px 40px 10px;">
     <p style="padding: 5px 5px 5px 2px;color:#888;">Colors</p>
     <checker
-    :value.sync="demo4"
+    :value="demo4"
     default-item-class="demo4-item"
     selected-item-class="demo4-item-selected"
     disabled-item-class="demo4-item-disabled"
