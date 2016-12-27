@@ -8,7 +8,8 @@
 
 ## Demo
 
-``` vux height=120 components=Badge,Group,Cell
+``` html
+
 <template>
 <div>
   <badge text="1"></badge>

@@ -9,7 +9,8 @@
 
 ## Demos
 
-``` vux height=300 components=Icon
+``` html
+
 <template>
 <div>
   <icon type="success"></icon>
