@@ -29,12 +29,12 @@
 <template>
 <div>
   <group>
-    <switch title="默认提示" v-model="show1"></switch>
-    <switch title="文字提示" v-model="show2"></switch>
-    <switch title="提示取消" v-model="show3"></switch>
-    <switch title="提示禁止" v-model="show4"></switch>
-    <switch title="设置出现时间1s" v-model="show5"></switch>
-    <switch title="long text" v-model="show6"></switch>
+    <x-switch title="默认提示" v-model="show1"></x-switch >
+    <x-switch title="文字提示" v-model="show2"></x-switch >
+    <x-switch title="提示取消" v-model="show3"></x-switch >
+    <x-switch title="提示禁止" v-model="show4"></x-switch >
+    <x-switch title="设置出现时间1s" v-model="show5"></x-switch >
+    <x-switch title="long text" v-model="show6"></x-switch >
   </group>
   <toast v-model="show1" >默认提示</toast>
   <toast v-model="show2" type="text">处理成功</toast>
