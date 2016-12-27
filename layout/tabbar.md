@@ -10,6 +10,11 @@
 | show-dot | Boolean | false | 是否显示红色提示点 |
 | link | String or Object | - | 普通链接或者`v-link`参数值, `0.1.2-rc1`开始支持。` <tabbar-item link="/somepath"></tabbar-item>` ｜
 
+## Events
+| 名字 | 参数 | 说明                  |
+|--|-----|------------------------|
+| on-index-change | index | tabbar index |
+
 ## Slots
 
 | 名字 | 说明 |
